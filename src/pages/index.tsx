@@ -11,7 +11,7 @@ function Block({ title, desc }: BlockProps) {
   return (
     <div className="shrink-0 w-0 flex-1 max-sm:w-full">
       <h3 className="font-bold text-lg text-purple-300">{title}</h3>
-      <p className="mt-3 text-base">{desc}</p>
+      <p className="mt-3 text-base text-white">{desc}</p>
     </div>
   );
 }
